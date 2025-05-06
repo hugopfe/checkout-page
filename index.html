@@ -6,11 +6,12 @@
     <title>Lojinha</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main class="container">
-        <h1>Lojinha da Unidade</h1>
+        <h1 class="text-bg-primary p-3 text-center fw-bold text-uppercase border border-top-0 border-dark border-3 rounded-bottom-3 mt-3">Lojinha da Unidade</h1>
         
         <table class="table table-hover align-middle">
             <thead>
@@ -26,53 +27,53 @@
                 <tr>
                     <td><img src="images/produto_1.webp" alt="smartphone" width="200px"></td>
                     <td>
-                        <div>Smartphone</div>
-                        <div>Cód. 123445</div>
-                        <div>Cor: Branco</div>
+                        <div class="product-name">Smartphone</div>
+                        <div class="product-info">Cód. 123445</div>
+                        <div class="product-info">Cor: Branco</div>
                     </td>
-                    <td>1200</td>
+                    <td class="product-price">R$ <span>1200</span></td>
                     <td>
                         <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
                         <span class="m-1">0</span>
                         <button class="btn btn-success"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td>0</td>
+                    <td class="product-total">R$ 0</td>
                 </tr>
                 <tr>
                     <td><img src="images/produto_2.webp" alt="smartphone" width="200px"></td>
                     <td>
-                        <div>Notebook</div>
-                        <div>Cód. 78913545</div>
-                        <div>Cor: Cinza</div>
+                        <div class="product-name">Notebook</div>
+                        <div class="product-info">Cód. 78913545</div>
+                        <div class="product-info">Cor: Cinza</div>
                     </td>
-                    <td>2500</td>
+                    <td class="product-price">R$ <span>2500</span></td>
                     <td>
                         <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
                         <span class="m-1">0</span>
                         <button class="btn btn-success"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td>0</td>
+                    <td class="product-total">R$ 0</td>
                 </tr>
                 <tr>
                     <td><img src="images/produto_3.webp" alt="smartphone" width="200px"></td>
                     <td>
-                        <div>Baixo 5 cordas</div>
-                        <div>Cód. 123445</div>
-                        <div>Cor: Marrom</div>
+                        <div class="product-name">Baixo 5 cordas</div>
+                        <div class="product-info">Cód. 123445</div>
+                        <div class="product-info">Cor: Marrom</div>
                     </td>
-                    <td>1500</td>
+                    <td class="product-price">R$ <span>1500</span></td>
                     <td>
                         <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
                         <span class="m-1">0</span>
                         <button class="btn btn-success"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td>0</td>
+                    <td class="product-total">R$ 0</td>
                 </tr>
         
             </tbody>
             <tfoot>
                 <tr class="text-center">
-                    <td colspan="5"><i class="bi bi-cart-check"> </i>Subtotal: R$ 0,00</td>
+                    <td colspan="5" class="p-5 text-bg-dark fs-5"><i class="bi bi-cart-check"> </i>Subtotal: R$ 0,00</td>
                 </tr>
             </tfoot>
         </table>

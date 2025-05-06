@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.product-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.product-info {
+    color: rgb(77, 76, 76);
+}
+
+.product-price {
+    text-decoration: underline;
+}
