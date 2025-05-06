@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/funcoes.js"></script>
 </head>
 <body>
     <main class="container">
@@ -46,13 +47,13 @@
                         <div class="product-info">Cód. 78913545</div>
                         <div class="product-info">Cor: Cinza</div>
                     </td>
-                    <td class="product-price">R$ <span>2500</span></td>
+                    <td class="product-price" id="price_1">R$ <span>2500</span></td>
                     <td>
                         <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
-                        <span class="m-1">0</span>
-                        <button class="btn btn-success"><i class="bi bi-plus"></i></button>
+                        <span class="m-1" id="qtd_1">0</span>
+                        <button class="btn btn-success" onclik="sum()"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td class="product-total">R$ 0</td>
+                    <td class="product-total" id="total_1">R$ 0</td>
                 </tr>
                 <tr>
                     <td><img src="images/produto_3.webp" alt="smartphone" width="200px"></td>
