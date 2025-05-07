@@ -32,13 +32,13 @@
                         <div class="product-info">Cód. 123445</div>
                         <div class="product-info">Cor: Branco</div>
                     </td>
-                    <td class="product-price">R$ <span>1200</span></td>
+                    <td class="product-price">R$ <span id="price_1">1200</spani></td>
                     <td>
-                        <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
-                        <span class="m-1">0</span>
-                        <button class="btn btn-success"><i class="bi bi-plus"></i></button>
+                        <button class="btn btn-danger" onclick="decrease(1)"><i class="bi bi-dash"></i></button>
+                        <span class="m-1" id="qtd_1">0</span>
+                        <button class="btn btn-success" onclick="increase(1)"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td class="product-total">R$ 0</td>
+                    <td class="product-total">R$ <span id="total_1">0</span></td>
                 </tr>
                 <tr>
                     <td><img src="images/produto_2.webp" alt="smartphone" width="200px"></td>
@@ -47,13 +47,13 @@
                         <div class="product-info">Cód. 78913545</div>
                         <div class="product-info">Cor: Cinza</div>
                     </td>
-                    <td class="product-price" id="price_1">R$ <span>2500</span></td>
+                    <td class="product-price">R$ <span id="price_2">2500</span></td>
                     <td>
-                        <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
-                        <span class="m-1" id="qtd_1">0</span>
-                        <button class="btn btn-success" onclik="sum()"><i class="bi bi-plus"></i></button>
+                        <button class="btn btn-danger" onclick="decrease(2)"><i class="bi bi-dash"></i></button>
+                        <span class="m-1" id="qtd_2">0</span>
+                        <button class="btn btn-success" onclick="increase(2)"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td class="product-total" id="total_1">R$ 0</td>
+                    <td class="product-total">R$ <span id="total_2">0</span></td>
                 </tr>
                 <tr>
                     <td><img src="images/produto_3.webp" alt="smartphone" width="200px"></td>
@@ -62,13 +62,13 @@
                         <div class="product-info">Cód. 123445</div>
                         <div class="product-info">Cor: Marrom</div>
                     </td>
-                    <td class="product-price">R$ <span>1500</span></td>
+                    <td class="product-price">R$ <span id="price_3">1500</span></td>
                     <td>
-                        <button class="btn btn-danger"><i class="bi bi-dash"></i></button>
-                        <span class="m-1">0</span>
-                        <button class="btn btn-success"><i class="bi bi-plus"></i></button>
+                        <button class="btn btn-danger" onclick="decrease(3)"><i class="bi bi-dash"></i></button>
+                        <span class="m-1" id="qtd_3">0</span>
+                        <button class="btn btn-success" onclick="increase(3)"><i class="bi bi-plus"></i></button>
                     </td>
-                    <td class="product-total">R$ 0</td>
+                    <td class="product-total">R$ <span id="total_3">0</span></td>
                 </tr>
         
             </tbody>
