@@ -12,3 +12,7 @@
 .product-price {
     text-decoration: underline;
 }
+
+th:nth-child(5), td:nth-child(5) {
+    width: 120px;
+}
